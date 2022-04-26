@@ -1,9 +1,11 @@
-    <li>
-      <article class="snippet">
+<a href="{{ post.url }}">	
+  <div class="card">
+		<header class="w3-blue header">
+			<h1>{{ post.data.title }}</h1>
+		</header>
+		<div class="content">
+			<p>{{ post.data.description }}</p>
+    </div>    
+	</div>
+</a>
 
-        <h3 class="snippet_title">{{ post.data.title }}</h3>
-        <p class="snippet__body">{{ post.data.description }}</p> 
-        <a href="{{ post.url }}" class="btn btn--primary">Continue Reading</a>
-
-      </article>
-    </li>

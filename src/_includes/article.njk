@@ -3,23 +3,18 @@ layout: "base.njk"
 ---
 
 
-
+<body>
 <article class="main-article">
 <div class="container container--narrow flow">
   
-    <h1 class="article-title">
+    <h1 class="title">
       {{ title }}
     </h1>
-    <figure class="main-article__figure">
-      <img src="{{ image }}" alt="{{ imageAlt }}">
-      <figcaption>
-        {{ imageAlt }}
-      </figcaption>
-    </figure>
+
+    <p class="content">{{ content | safe }}</p>
     
-    {{ content | safe }}
   
 </div>
 </article>
-
+</body>
 
