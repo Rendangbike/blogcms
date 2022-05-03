@@ -10,6 +10,7 @@ body {
   background-image: url("assets/bg.jpg");
   text-align : center;
   height: 100%;
+  text-decoration: none;
 }
 
 .title {
