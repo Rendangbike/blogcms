@@ -1,11 +1,13 @@
 <a href="{{ post.url }}">	
-  <div class="card">
-		<header class="w3-blue header">
-			<h1>{{ post.data.title }}</h1>
-		</header>
-		<div class="content">
-			<p>{{ post.data.description }}</p>
+    <div class="content">
+		<h1 class="header">
+			{{ post.data.title }}
+		</h1>
+        <p>
+			{{ post.data.description }}
+		</p>
+        <div class="tags">{{ post.data.tags }}</div>
     </div>    
-	</div>
 </a>
+
 

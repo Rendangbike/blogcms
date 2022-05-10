@@ -1,55 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo&family=JetBrains+Mono&family=Open+Sans&display=swap');
-@import url("https://www.w3schools.com/w3css/4/w3.css");
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=JetBrains+Mono&display=swap');
+/* @import url("https://www.w3schools.com/w3css/4/w3.css"); */
 :root {
     --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    --padding: 0.01em 16px;
+    --codefont: "Jetbrains Mono", monospace;
+    --contfont: 'Arimo', Tahoma, sans-serif;
     
 }
 
 body {
-  background-image: url("assets/bg.jpg");
-  text-align : center;
-  height: 100%;
-  text-decoration: none;
+    background-image: url("assets/bg.jpg");
+    height: 100%;
+    max-width: 850px;
+    margin: auto;
+    line-height: 1.6;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+p {
+    margin-top: -15px;
 }
 
 .title {
-    font-family: "Jetbrains Mono", monospace;
-    font-size: 500%;
+    font-family: var(--codefont);
+    font-size: 64px;
+    text-align : center;
 }
 
 .header {
-    font-family: 'Arimo', Tahoma, sans-serif;
-    padding: var(--padding);
-    border-radius: 20px 20px 0px 0px;
+    font-family: var(--contfont);
+    font-size: 22px;
+    font-weight: 600;
 }
+
 
 .content {
-    font-family: 'Arimo', Tahoma, sans-serif;
+    font-family: var(--contfont);
     font-size: 16px;
-    padding: var(--padding);
+    padding: 0.01em 16px;
 }
 
-/* For the cards */
-
-.card {
-    box-shadow: var(--shadow);
-    width: 25em;
-    border: 2px;
-    border-radius: 20px;
-    background: #ffffff;
-    /* Hover effect from https://ianlunn.github.io/Hover */
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
+.arthead {
+    margin: 20px;
+    font-family: var(--codefont);
+    font-size: 38px;
+    text-align : center;
 }
 
-.card:hover, .card:focus, .card:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+.tags::before{
+    content: "#";
 }
+hr {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
