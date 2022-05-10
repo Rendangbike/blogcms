@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   branch: master
+  repo: Rendangbike/blogcms
 media_folder: "public/assets/blog"
 public_folder: "/assets/blog"
 collections:
