@@ -19,7 +19,7 @@ a {
     color: #000000;
 }
 
-p {
+.desc {
     margin-top: -15px;
 }
 
@@ -39,7 +39,7 @@ p {
 .content {
     font-family: var(--contfont);
     font-size: 16px;
-    padding: 0.01em 16px;
+    padding: 0em 16px;
 }
 
 .arthead {
@@ -47,6 +47,7 @@ p {
     font-family: var(--codefont);
     font-size: 38px;
     text-align : center;
+    font-weight: lighter;
 }
 
 .tags::before{
