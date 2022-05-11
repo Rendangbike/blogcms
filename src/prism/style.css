@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=JetBrains+Mono&display=swap');
+/* @import url("https://www.w3schools.com/w3css/4/w3.css"); */
+:root {
+    --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    --codefont: "Jetbrains Mono", monospace;
+    --contfont: 'Arimo', Tahoma, sans-serif;
+    
+}
+
+body {
+    background-image: url("assets/bg.jpg");
+    height: 100%;
+    max-width: 850px;
+    margin: auto;
+    line-height: 1.6;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.desc {
+    margin-top: -15px;
+}
+
+.title {
+    font-family: var(--codefont);
+    font-size: 64px;
+    text-align : center;
+}
+
+.header {
+    font-family: var(--contfont);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+.content {
+    font-family: var(--contfont);
+    font-size: 16px;
+    padding: 0em 16px;
+}
+
+.arthead {
+    margin: 20px;
+    font-family: var(--codefont);
+    font-size: 38px;
+    text-align : center;
+    font-weight: lighter;
+}
+
+.tags::before{
+    content: "#";
+}
+hr {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* For the article */
+code,
+pre {
+  background: #eee;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+  font-family: var(--codefont);
+}
+
+pre {
+  padding: 1em;
+}
