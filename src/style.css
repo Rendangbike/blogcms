@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: url("assets/bg.jpg");
+    background: url("assets/bg.jpg");
     height: 100%;
     max-width: 850px;
     margin: auto;
@@ -18,7 +18,7 @@ body {
 }
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #262626;
+        background: #262626;
         color: white;
     }
 }
