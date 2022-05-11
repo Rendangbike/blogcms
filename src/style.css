@@ -24,6 +24,9 @@ body {
     code {
         color: black;
     }
+    img {
+        filter: grayscale(50%);
+    }
 }
 a {
     text-decoration: none;
