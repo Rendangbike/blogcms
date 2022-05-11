@@ -73,3 +73,6 @@ code {
 pre {
   padding: 1em;
 }
+.back {
+    font-family: var(--contfont);
+}
