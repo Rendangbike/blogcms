@@ -4,6 +4,7 @@
     --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     --codefont: "Jetbrains Mono", monospace;
     --contfont: 'Arimo', Tahoma, sans-serif;
+    --bltowh: "#000000";
     
 }
 
@@ -16,7 +17,7 @@ body {
 }
 a {
     text-decoration: none;
-    color: #000000;
+    color: var(--bltowh);
 }
 
 .desc {
@@ -77,4 +78,8 @@ pre {
     font-family: var(--contfont);
     margin: 20px;
     
+}
+.options {
+    text-align: center;
+    margin: auto;
 }
