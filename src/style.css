@@ -21,6 +21,9 @@ body {
         background: #262626;
         color: white;
     }
+    code {
+        color: black;
+    }
 }
 a {
     text-decoration: none;
