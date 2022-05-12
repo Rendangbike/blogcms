@@ -16,18 +16,7 @@ body {
     line-height: 1.6;
     color: black;
 }
-@media (prefers-color-scheme: dark) {
-    body {
-        background: #262626;
-        color: white;
-    }
-    code {
-        color: black;
-    }
-    img {
-        filter: grayscale(50%);
-    }
-}
+
 a {
     text-decoration: none;
     color: var(--bltowh);
@@ -95,4 +84,18 @@ pre {
 .options {
     text-align: center;
     margin: auto;
+    font-family: var(--contfont);
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #262626;
+        color: white;
+    }
+    code {
+        color: black;
+    }
+    img {
+        filter: grayscale(50%);
+    }
 }
