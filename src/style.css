@@ -14,7 +14,6 @@ body {
     max-width: 850px;
     margin: auto;
     line-height: 1.6;
-    color: black;
 }
 
 a {
@@ -62,9 +61,19 @@ hr {
 }
 
 /* For the article */
+/* For the code */
 code,
-pre {
+pre,
+blockquote {
   background: #eee;
+}
+pre,
+blockquote {
+  border-left: 2px solid #69c;
+}
+blockquote {
+    padding-left: 10px;
+    margin-left: 0%;
 }
 
 code {
@@ -76,6 +85,7 @@ code {
 pre {
   padding: 1em;
 }
+
 .back {
     font-family: var(--contfont);
     margin: 20px;
@@ -89,13 +99,13 @@ pre {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background: #262626;
+        background: #2a2a2a;
         color: white;
     }
-    code {
-        color: black;
+    pre, code, blockquote {
+        background-color: #15202b;
     }
     img {
-        filter: grayscale(50%);
+        filter: grayscale(40%);
     }
 }
