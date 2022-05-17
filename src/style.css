@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo&family=JetBrains+Mono&display=swap');
-/* @import url("https://www.w3schools.com/w3css/4/w3.css"); */
+
 :root {
     --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     --codefont: "Jetbrains Mono", monospace;
@@ -55,6 +55,8 @@ a {
 .tags::before{
     content: "#";
 }
+
+
 hr {
     margin-right: 20px;
     margin-left: 20px;
@@ -87,9 +89,9 @@ pre {
 }
 
 .back {
+    /* For the back button in article */
     font-family: var(--contfont);
     margin: 20px;
-    
 }
 .options {
     text-align: center;
@@ -97,6 +99,7 @@ pre {
     font-family: var(--contfont);
 }
 
+/* For dark mode */
 @media (prefers-color-scheme: dark) {
     body {
         background: #2a2a2a;
