@@ -6,6 +6,17 @@ description: test
 
 <div class="title">My Blog</div>
 <div class="options">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+  <script type="text/javascript">
+  algoliasearchNetlify({
+    appId: '7R6GRU86Y5',
+    apiKey: 'e8df46d577f1026fa25c85c9e8005b43',
+    siteId: '4da42dc4-17de-461e-b425-735b264ee8a6',
+    branch: 'main',
+    selector: 'div#search',
+  });
+ </script>
 </div>
 <hr>
 
