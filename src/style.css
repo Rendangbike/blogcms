@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo&family=JetBrains+Mono&display=swap');
 
 :root {
-    --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     --codefont: "Jetbrains Mono", monospace;
     --contfont: 'Arimo', Tahoma, sans-serif;
     --bltowh: "#000000";
+    --contsize: 16px;
     
 }
 
@@ -31,7 +31,7 @@ a {
     text-align : center;
 }
 
-.header {
+.cardheader {
     font-family: var(--contfont);
     font-size: 22px;
     font-weight: 600;
@@ -40,16 +40,22 @@ a {
 
 .content {
     font-family: var(--contfont);
-    font-size: 16px;
+    font-size: var(--contsize);
     padding: 0em 16px;
 }
 
+.card {
+    font-family: var(--contfont);
+    font-size: var(--contsize);
+    padding: 0em 16px;
+    margin-bottom: 35px;
+
+}
 .arthead {
+    /* Article Header */
     margin: 20px;
     font-family: var(--codefont);
     font-size: 38px;
-    text-align : center;
-    font-weight: lighter;
 }
 
 .tags::before{
