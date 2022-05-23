@@ -56,6 +56,7 @@ a {
     margin: 20px;
     font-family: var(--codefont);
     font-size: 38px;
+    text-align: center;
 }
 
 .tags::before{
@@ -103,6 +104,10 @@ pre {
     text-align: center;
     margin: auto;
     font-family: var(--contfont);
+}
+
+img {
+    max-width: 200px;
 }
 
 /* For dark mode */
