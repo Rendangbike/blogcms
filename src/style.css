@@ -74,11 +74,12 @@ hr {
 code,
 pre,
 blockquote {
-  background: #eee;
+  background: #f2f2f2;
 }
 pre,
 blockquote {
-  border-left: 2px solid #69c;
+  border-left: 2px solid #69c !important; 
+  border: 1px solid transparent;
 }
 blockquote {
     padding-left: 10px;
@@ -91,9 +92,7 @@ code {
   font-family: var(--codefont);
 }
 
-pre {
-  padding: 1em;
-}
+pre {padding: 1em;}
 
 .back {
     /* For the back button in article */
@@ -106,9 +105,18 @@ pre {
     font-family: var(--contfont);
 }
 
-img {
-    max-width: 200px;
-}
+img {max-width: 200px;}
+
+
+
+/* Header styling */
+
+h1 {font-size: 32px;}
+h2 {font-size: 24px;}
+h3 {font-size: 18.72px;}
+h4 {font-size: 16px;}
+h5 {font-size: 13.28px;}
+h6 {font-size: 12px;}
 
 /* For dark mode */
 @media (prefers-color-scheme: dark) {
