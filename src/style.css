@@ -16,11 +16,6 @@ body {
     line-height: 1.6;
 }
 
-a {
-    text-decoration: none;
-    color: var(--bltowh);
-}
-
 .desc {
     margin-top: -15px;
 }
@@ -65,8 +60,12 @@ a {
 
 
 hr {
-    margin-right: 20px;
-    margin-left: 20px;
+    margin: 0px 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--bltowh);
 }
 
 /* For the article */
@@ -83,7 +82,6 @@ blockquote {
 }
 blockquote {
     padding-left: 10px;
-    margin-left: 0%;
 }
 
 code {
@@ -98,6 +96,8 @@ pre {padding: 1em;}
     /* For the back button in article */
     font-family: var(--contfont);
     margin: 20px;
+    text-decoration: none;
+    color: var(--bltowh);
 }
 .options {
     text-align: center;
