@@ -17,11 +17,14 @@ def fib(n):
  
 fib(1000)
 ```
+
+
+
 ![lorem picsum](https://picsum.photos/200/300?random=2 "Lorem Picsum")
 
 Etiam hendrerit tellus quis purus cursus, ut consectetur lacus dictum. Integer iaculis nisl ac sagittis accumsan. Ut mauris nisi, sagittis vel sodales ac, mattis vel nunc. Maecenas gravida lobortis ex. Vivamus id tellus ut eros gravida viverra vitae vestibulum massa. Aenean ultricies pharetra lacus. Sed non gravida lectus, sed sollicitudin ex. Proin pulvinar cursus orci, ac rutrum erat posuere nec. In sit amet leo ex. 
 
-![lorem picsum](https://picsum.photos/200/300?random=3 "Lorem Picsum")
+![](/assets/blog/61px-old_user_icon.png)
 
 # Pellentesque
 
@@ -34,8 +37,6 @@ Etiam hendrerit tellus quis purus cursus, ut consectetur lacus dictum. Integer i
 ##### senectus
 
 ###### et
-
-![lorem picsum](https://picsum.photos/200/300?random=4 "Lorem Picsum")
 
 > netus et malesuada fames ac turpis egestas. 
 
