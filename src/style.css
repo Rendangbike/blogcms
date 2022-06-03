@@ -24,6 +24,8 @@ body {
     font-family: var(--codefont);
     font-size: 64px;
     text-align : center;
+    font-weight: 400;
+    margin: 10px;
 }
 
 .cardheader {
