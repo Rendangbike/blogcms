@@ -54,6 +54,8 @@ body {
     font-family: var(--codefont);
     font-size: 38px;
     text-align: center;
+    font-weight: 400;
+    margin: 10px;
 }
 
 .tags::before{
