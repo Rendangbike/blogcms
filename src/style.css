@@ -58,11 +58,6 @@ body {
     margin: 10px;
 }
 
-.tags::before{
-    content: "#";
-}
-
-
 hr {
     margin: 0px 20px;
 }
