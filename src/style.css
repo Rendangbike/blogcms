@@ -76,7 +76,7 @@ blockquote {
 }
 pre,
 blockquote {
-  border-left: 2px solid #69c !important; 
+  border-left: 2px solid #28a5da !important; 
   border: 1px solid transparent;
 }
 blockquote {
@@ -90,6 +90,10 @@ code {
 }
 
 pre {padding: 1em;}
+
+blockquote:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
 
 .back {
     /* For the back button in article */
@@ -112,17 +116,15 @@ img {max-width: 200px;}
 /* Header styling */
 
 h1 {font-size: 32px;}
-h2 {font-size: 24px;}
-h3 {font-size: 18.72px;}
-h4 {font-size: 16px;}
-h5 {font-size: 13.28px;}
-h6 {font-size: 12px;}
+
 
 /* For dark mode */
 @media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: dark;
+    }
     body {
         background: #2a2a2a;
-        color: white;
     }
     pre, code, blockquote {
         background-color: #15202b;
