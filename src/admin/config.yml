@@ -4,12 +4,13 @@ backend:
 publish_mode: editorial_workflow
 media_folder: "public/assets/blog"
 public_folder: "/assets/blog"
+logo_url: "/assets/ico.png"
 collections:
   - name: blog
     label: Blog
     folder: "src/blog"
     create: true
-    slug: "{{slug}}"
+    slug: "{{filename}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Filename", name: "filename", widget: "string" }
