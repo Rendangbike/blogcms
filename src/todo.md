@@ -1,1 +1,0 @@
-1. Download Arimo and JBMono to reduce load
