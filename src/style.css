@@ -1,15 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo&family=JetBrains+Mono&display=swap');
+@font-face {
+    font-family: 'Arimo';
+    src: url('assets/Arimo/Arimo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Jetbrains Mono';
+    src: url('assets/JetBrains_Mono/JetBrainsMono-Regular.ttf') format('truetype');
+}
 
 :root {
     --codefont: "Jetbrains Mono", monospace;
-    --contfont: 'Arimo', Tahoma, sans-serif;
-    --bltowh: "#000000";
+    --contfont: 'Arimo', sans-serif;
     --contsize: 16px;
     
 }
 
 body {
     background: url("assets/bg.jpg");
+    color: #2E3440;
+    font-family: var(--contfont);
+    font-size: var(--contsize);
     height: 100%;
     max-width: 850px;
     margin: auto;
@@ -29,25 +39,29 @@ body {
 }
 
 .cardheader {
-    font-family: var(--contfont);
     font-size: 22px;
     font-weight: 600;
 }
 
 
 .content {
-    font-family: var(--contfont);
-    font-size: var(--contsize);
     padding: 0em 16px;
 }
 
 .card {
-    font-family: var(--contfont);
-    font-size: var(--contsize);
     padding: 0em 16px;
     margin-bottom: 35px;
 
 }
+
+hr {
+    margin: 0px 20px;
+}
+
+
+
+/* For the article */
+
 .arthead {
     /* Article Header */
     margin: 20px;
@@ -57,17 +71,10 @@ body {
     font-weight: 400;
     margin: 10px;
 }
-
-hr {
-    margin: 0px 20px;
-}
-
 .link {
     text-decoration: none;
-    color: var(--bltowh);
+    color: #000000;
 }
-
-/* For the article */
 /* For the code */
 code,
 pre,
@@ -100,7 +107,7 @@ blockquote:nth-child(even) {
     font-family: var(--contfont);
     margin: 20px;
     text-decoration: none;
-    color: var(--bltowh);
+    color: #000000;
 }
 .options {
     text-align: center;
@@ -111,10 +118,6 @@ blockquote:nth-child(even) {
 
 img {max-width: 200px;}
 
-
-
-/* Header styling */
-
 h1 {font-size: 32px;}
 
 
@@ -124,12 +127,18 @@ h1 {font-size: 32px;}
         color-scheme: dark;
     }
     body {
-        background: #2a2a2a;
+        background: #2E3440;
     }
     pre, code, blockquote {
         background-color: #15202b;
     }
     img {
         filter: grayscale(40%);
+    }
+}
+/* For printer */
+@media print {
+    .back {
+        display: none;
     }
 }
