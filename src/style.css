@@ -1,12 +1,4 @@
-@font-face {
-    font-family: 'Arimo';
-    src: url('assets/Arimo/Arimo-Regular.ttf') format('truetype');
-}
 
-@font-face {
-    font-family: 'Jetbrains Mono';
-    src: url('assets/JetBrains_Mono/JetBrainsMono-Regular.ttf') format('truetype');
-}
 
 :root {
     --codefont: "Jetbrains Mono", monospace;
