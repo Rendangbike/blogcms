@@ -31,10 +31,11 @@ hr {
 }
 .link {
     text-decoration: none;
-    color: black;
 }
 .card {
     margin-bottom: 35px;
+    color: black;
+    margin: 20px;
 }
 
 .cardheader {
