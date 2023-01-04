@@ -7,7 +7,6 @@
 
 body {
     background: url("assets/bg.jpg");
-    /* color: #2E3440; */
     font-family: 'Arimo', sans-serif;
     font-size: 16px;
     max-width: 850px;
@@ -30,7 +29,10 @@ hr {
     font-weight: 400;
     margin: 10px;
 }
-
+.link {
+    text-decoration: none;
+    color: black;
+}
 .card {
     margin-bottom: 35px;
 }
@@ -56,10 +58,7 @@ hr {
     font-weight: 400;
     margin: 10px;
 }
-.link {
-    text-decoration: none;
-    color: #000000;
-}
+
 /* For the code */
 code,
 pre,
@@ -92,7 +91,6 @@ blockquote:nth-child(even) {
     font-family: var(--contfont);
     margin: 20px;
     text-decoration: none;
-    color: #000000;
 }
 .options {
     text-align: center;
